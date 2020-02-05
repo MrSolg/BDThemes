@@ -1,0 +1,101 @@
+//META{"name":"Ezote","description":"Ez on the eyes","author":"M0N0/MrSolg","version":"1.0"}*//
+/*
+COLOR STORAGE::
+Material Dark  		121212
+Material Pink 400   ee02a2
+Phorange  			ffa31a
+Darker Dark 		0f0f0f
+
+https://www.w3schools.com/colors/colors_picker.asp?colorhex=BDB76B
+White 100	 		ffffff
+White 90 			e6e6e6
+White 60 (Med)  	999999
+White 40 			666666
+*/
+
+.nowPlayingColumn-2sl4cE{
+	min-width: 0px;
+	max-width: 280px;
+}
+
+.chat-3bRxxu{
+	background: #121212
+}
+.messages-3amgkR{
+	background-color: #121212FF
+}
+/*
+.mentioned-xhSam7{
+	background-color: 66666652;
+}*/
+
+.sidebar-2K8pFh{ /* Channel Sidebar*/
+	width: 200;
+	flex-direction: column; /* Setting as column-reverse makes the list go backwards, bub*/
+}
+
+/*it's the scrollbar*/
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
+	background-color: #0f0f0f;
+	border: 0px solid #121212;
+	border-radius: 0px;
+}
+
+.theme-dark .headerNormal-T_seeN{
+	background-color: #0f0f0f;
+}
+
+.headerTop-3C2Zn0{
+	color: #e6e6e6;
+}
+
+.headerSpotify-zpWxgT{
+	background: #0f0f0f;
+}
+
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6{
+	background-color: #121212;
+	color: #999999;
+}
+
+.theme-dark .quickMessage-1yeL4E{
+	background-color: #0f0f0f;
+	color: #66666652;
+	
+}
+
+.theme-dark{
+	--header-primary: #e6e6e6;
+	--channels-default: #e6e6e6;
+	--text-normal: #e6e6e6;
+	--background-primary: #121212; /*Channel header & transparency + Dumb thing on bottom of messages*/
+	--background-secondary: #121212; /*Guild on right, and channels on left*/
+	--background-secondary-alt: #121212; /*Profile in bottom left*/
+	--background-tertiary: #121212; /*Server bar & Header*/
+	
+	/*Used when selecting channels or people*/
+	--background-modifier-hover: #66666652; /* Used when mousing over names*/
+	--background-modifier-active: #66666661; /* Only shown when clicking*/
+	--background-modifier-selected: #66666652; /*Shown when selected, or after clicked*/
+	
+	--interactive-normal: #e6e6e6; /*buttons like Pinned and Settings*/
+	--interactive-hover: #e6e6e6; /*Color of text when hovered*/
+	--interactive-active: #e6e6e6; /*Color of text when selected*/
+	--interactive-muted: #666666; /*Muted channels*/
+	
+	
+	--background-mentioned: #666666;
+	--background-mentioned-hover: 121212;
+	--background-accent: #666666ff; /*Streaming icon?*/
+	
+	--channeltextarea-background: #0f0f0f; /*Your message box*/
+	--background-message-hover: #0f0f0f; /*Messages have a natural hover color*/
+	
+	--elevation-low: 0 1px 0 #666666,0 1.5px 0 #666666,0 2px 0 #666666; /*Three weird lines at the top, below header*/
+	--elevation-medium: 0 2px 2px #e6e6e6;
+	--elevation-high: 0 0px 32px rgba(18, 18, 18, 1); /*Discord has a natural color around hover items*/
+	--elevation-stroke: 0 0 0 1.5px #666666; /*Around new reaction button*/
+	
+	--background-floating: #0f0f0f; /*Server modal*/
+}
+
